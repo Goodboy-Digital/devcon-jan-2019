@@ -1,0 +1,30 @@
+{
+  "name": "pixi-video-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "fix-file-names": "fix-file-names ./raw-assets",
+    "dev": "node ./tools/build.js",
+    "prod": "node ./tools/build.js production",
+    "prod:assets": "node ./tools/build.js assets",
+    "prod:js": "node ./tools/build.js production js",
+    "test": "echo \"Warning: no test specified\" && exit 0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@goodboydigital/fido-build": "^1.4.4",
+    "@goodboydigital/odie": "^4.0.2",
+    "colyseus": "^0.9.29",
+    "dat.gui": "^0.7.5",
+    "gsap": "^2.0.2",
+    "p2": "^0.7.1",
+    "pixi-filters": "^2.7.0",
+    "signals": "^1.0.0"
+  },
+  "devDependencies": {
+    "uglifyjs-webpack-plugin": "^2.1.1"
+  }
+}

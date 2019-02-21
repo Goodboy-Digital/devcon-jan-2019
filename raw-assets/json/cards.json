@@ -1,0 +1,2239 @@
+[
+  [
+    {
+      "name": "Bulbasaur",
+      "number": 1,
+      "stats": {
+        "hp": 40,
+        "attack": 40,
+        "defense": 40,
+        "specAttack": 60,
+        "specDefense": 40,
+        "speed": 40
+      },
+      "level": 260,
+      "weakness": [],
+      "types": "Grass,Poison",
+      "thumb_url": "thumbs/001.png",
+      "image_url": "images/001.png"
+    },
+    {
+      "name": "Charmander",
+      "number": 4,
+      "stats": {
+        "hp": 20,
+        "attack": 40,
+        "defense": 40,
+        "specAttack": 60,
+        "specDefense": 40,
+        "speed": 60
+      },
+      "level": 260,
+      "weakness": [],
+      "types": "Fire",
+      "thumb_url": "thumbs/004.png",
+      "image_url": "images/004.png"
+    },
+    {
+      "name": "Squirtle",
+      "number": 7,
+      "stats": {
+        "hp": 40,
+        "attack": 40,
+        "defense": 60,
+        "specAttack": 40,
+        "specDefense": 40,
+        "speed": 40
+      },
+      "level": 260,
+      "weakness": [],
+      "types": "Water",
+      "thumb_url": "thumbs/007.png",
+      "image_url": "images/007.png"
+    },
+    {
+      "name": "Caterpie",
+      "number": 10,
+      "stats": {
+        "hp": 40,
+        "attack": 20,
+        "defense": 40,
+        "specAttack": 20,
+        "specDefense": 20,
+        "speed": 40
+      },
+      "level": 180,
+      "weakness": [],
+      "types": "Bug",
+      "thumb_url": "thumbs/010.png",
+      "image_url": "images/010.png"
+    },
+    {
+      "name": "Metapod",
+      "number": 11,
+      "stats": {
+        "hp": 40,
+        "attack": 20,
+        "defense": 40,
+        "specAttack": 20,
+        "specDefense": 20,
+        "speed": 20
+      },
+      "level": 160,
+      "weakness": [],
+      "types": "Bug",
+      "thumb_url": "thumbs/011.png",
+      "image_url": "images/011.png"
+    },
+    {
+      "name": "Weedle",
+      "number": 13,
+      "stats": {
+        "hp": 20,
+        "attack": 40,
+        "defense": 20,
+        "specAttack": 20,
+        "specDefense": 20,
+        "speed": 40
+      },
+      "level": 160,
+      "weakness": [],
+      "types": "Bug,Poison",
+      "thumb_url": "thumbs/013.png",
+      "image_url": "images/013.png"
+    },
+    {
+      "name": "Kakuna",
+      "number": 14,
+      "stats": {
+        "hp": 40,
+        "attack": 20,
+        "defense": 40,
+        "specAttack": 20,
+        "specDefense": 20,
+        "speed": 40
+      },
+      "level": 180,
+      "weakness": [],
+      "types": "Bug,Poison",
+      "thumb_url": "thumbs/014.png",
+      "image_url": "images/014.png"
+    },
+    {
+      "name": "Pidgey",
+      "number": 16,
+      "stats": {
+        "hp": 20,
+        "attack": 40,
+        "defense": 40,
+        "specAttack": 20,
+        "specDefense": 20,
+        "speed": 60
+      },
+      "level": 200,
+      "weakness": [],
+      "types": "Normal,Flying",
+      "thumb_url": "thumbs/016.png",
+      "image_url": "images/016.png"
+    },
+    {
+      "name": "Rattata",
+      "number": 19,
+      "stats": {
+        "hp": 20,
+        "attack": 40,
+        "defense": 40,
+        "specAttack": 20,
+        "specDefense": 20,
+        "speed": 60
+      },
+      "level": 200,
+      "weakness": [],
+      "types": "Normal",
+      "thumb_url": "thumbs/019.png",
+      "image_url": "images/019.png"
+    },
+    {
+      "name": "Spearow",
+      "number": 21,
+      "stats": {
+        "hp": 20,
+        "attack": 60,
+        "defense": 20,
+        "specAttack": 20,
+        "specDefense": 20,
+        "speed": 60
+      },
+      "level": 200,
+      "weakness": [],
+      "types": "Normal,Flying",
+      "thumb_url": "thumbs/021.png",
+      "image_url": "images/021.png"
+    },
+    {
+      "name": "Ekans",
+      "number": 23,
+      "stats": {
+        "hp": 20,
+        "attack": 60,
+        "defense": 40,
+        "specAttack": 40,
+        "specDefense": 40,
+        "speed": 60
+      },
+      "level": 260,
+      "weakness": [],
+      "types": "Poison",
+      "thumb_url": "thumbs/023.png",
+      "image_url": "images/023.png"
+    },
+    {
+      "name": "Pikachu",
+      "number": 25,
+      "stats": {
+        "hp": 20,
+        "attack": 40,
+        "defense": 20,
+        "specAttack": 40,
+        "specDefense": 20,
+        "speed": 80
+      },
+      "level": 220,
+      "weakness": [],
+      "types": "Electric",
+      "thumb_url": "thumbs/025.png",
+      "image_url": "images/025.png"
+    },
+    {
+      "name": "Sandshrew",
+      "number": 27,
+      "stats": {
+        "hp": 40,
+        "attack": 60,
+        "defense": 60,
+        "specAttack": 20,
+        "specDefense": 20,
+        "speed": 40
+      },
+      "level": 240,
+      "weakness": [],
+      "types": "Ground",
+      "thumb_url": "thumbs/027.png",
+      "image_url": "images/027.png"
+    },
+    {
+      "name": "Nidoran♀",
+      "number": 29,
+      "stats": {
+        "hp": 40,
+        "attack": 40,
+        "defense": 40,
+        "specAttack": 40,
+        "specDefense": 20,
+        "speed": 40
+      },
+      "level": 220,
+      "weakness": [],
+      "types": "Poison",
+      "thumb_url": "thumbs/029.png",
+      "image_url": "images/029.png"
+    },
+    {
+      "name": "Nidoran♂",
+      "number": 32,
+      "stats": {
+        "hp": 40,
+        "attack": 40,
+        "defense": 40,
+        "specAttack": 40,
+        "specDefense": 20,
+        "speed": 40
+      },
+      "level": 220,
+      "weakness": [],
+      "types": "Poison",
+      "thumb_url": "thumbs/032.png",
+      "image_url": "images/032.png"
+    },
+    {
+      "name": "Vulpix",
+      "number": 37,
+      "stats": {
+        "hp": 20,
+        "attack": 40,
+        "defense": 40,
+        "specAttack": 40,
+        "specDefense": 40,
+        "speed": 60
+      },
+      "level": 240,
+      "weakness": [],
+      "types": "Fire",
+      "thumb_url": "thumbs/037.png",
+      "image_url": "images/037.png"
+    },
+    {
+      "name": "Jigglypuff",
+      "number": 39,
+      "stats": {
+        "hp": 80,
+        "attack": 40,
+        "defense": 20,
+        "specAttack": 40,
+        "specDefense": 20,
+        "speed": 20
+      },
+      "level": 220,
+      "weakness": [],
+      "types": "Normal",
+      "thumb_url": "thumbs/039.png",
+      "image_url": "images/039.png"
+    },
+    {
+      "name": "Zubat",
+      "number": 41,
+      "stats": {
+        "hp": 20,
+        "attack": 40,
+        "defense": 40,
+        "specAttack": 20,
+        "specDefense": 20,
+        "speed": 60
+      },
+      "level": 200,
+      "weakness": [],
+      "types": "Poison,Flying",
+      "thumb_url": "thumbs/041.png",
+      "image_url": "images/041.png"
+    },
+    {
+      "name": "Oddish",
+      "number": 43,
+      "stats": {
+        "hp": 40,
+        "attack": 40,
+        "defense": 40,
+        "specAttack": 60,
+        "specDefense": 40,
+        "speed": 20
+      },
+      "level": 240,
+      "weakness": [],
+      "types": "Grass,Poison",
+      "thumb_url": "thumbs/043.png",
+      "image_url": "images/043.png"
+    },
+    {
+      "name": "Paras",
+      "number": 46,
+      "stats": {
+        "hp": 20,
+        "attack": 60,
+        "defense": 40,
+        "specAttack": 40,
+        "specDefense": 40,
+        "speed": 20
+      },
+      "level": 220,
+      "weakness": [],
+      "types": "Bug,Grass",
+      "thumb_url": "thumbs/046.png",
+      "image_url": "images/046.png"
+    },
+    {
+      "name": "Venonat",
+      "number": 48,
+      "stats": {
+        "hp": 40,
+        "attack": 40,
+        "defense": 40,
+        "specAttack": 40,
+        "specDefense": 40,
+        "speed": 40
+      },
+      "level": 240,
+      "weakness": [],
+      "types": "Bug,Poison",
+      "thumb_url": "thumbs/048.png",
+      "image_url": "images/048.png"
+    },
+    {
+      "name": "Diglett",
+      "number": 50,
+      "stats": {
+        "hp": 20,
+        "attack": 40,
+        "defense": 20,
+        "specAttack": 20,
+        "specDefense": 40,
+        "speed": 80
+      },
+      "level": 220,
+      "weakness": [],
+      "types": "Ground",
+      "thumb_url": "thumbs/050.png",
+      "image_url": "images/050.png"
+    },
+    {
+      "name": "Meowth",
+      "number": 52,
+      "stats": {
+        "hp": 20,
+        "attack": 40,
+        "defense": 40,
+        "specAttack": 40,
+        "specDefense": 20,
+        "speed": 80
+      },
+      "level": 240,
+      "weakness": [],
+      "types": "Normal",
+      "thumb_url": "thumbs/052.png",
+      "image_url": "images/052.png"
+    },
+    {
+      "name": "Mankey",
+      "number": 56,
+      "stats": {
+        "hp": 20,
+        "attack": 60,
+        "defense": 40,
+        "specAttack": 20,
+        "specDefense": 40,
+        "speed": 60
+      },
+      "level": 240,
+      "weakness": [],
+      "types": "Fighting",
+      "thumb_url": "thumbs/056.png",
+      "image_url": "images/056.png"
+    },
+    {
+      "name": "Poliwag",
+      "number": 60,
+      "stats": {
+        "hp": 20,
+        "attack": 40,
+        "defense": 40,
+        "specAttack": 40,
+        "specDefense": 20,
+        "speed": 80
+      },
+      "level": 240,
+      "weakness": [],
+      "types": "Water",
+      "thumb_url": "thumbs/060.png",
+      "image_url": "images/060.png"
+    },
+    {
+      "name": "Machop",
+      "number": 66,
+      "stats": {
+        "hp": 60,
+        "attack": 60,
+        "defense": 40,
+        "specAttack": 20,
+        "specDefense": 20,
+        "speed": 40
+      },
+      "level": 240,
+      "weakness": [],
+      "types": "Fighting",
+      "thumb_url": "thumbs/066.png",
+      "image_url": "images/066.png"
+    },
+    {
+      "name": "Bellsprout",
+      "number": 69,
+      "stats": {
+        "hp": 40,
+        "attack": 60,
+        "defense": 40,
+        "specAttack": 60,
+        "specDefense": 20,
+        "speed": 40
+      },
+      "level": 260,
+      "weakness": [],
+      "types": "Grass,Poison",
+      "thumb_url": "thumbs/069.png",
+      "image_url": "images/069.png"
+    },
+    {
+      "name": "Geodude",
+      "number": 74,
+      "stats": {
+        "hp": 20,
+        "attack": 60,
+        "defense": 80,
+        "specAttack": 20,
+        "specDefense": 20,
+        "speed": 20
+      },
+      "level": 220,
+      "weakness": [],
+      "types": "Rock,Ground",
+      "thumb_url": "thumbs/074.png",
+      "image_url": "images/074.png"
+    },
+    {
+      "name": "Slowpoke",
+      "number": 79,
+      "stats": {
+        "hp": 60,
+        "attack": 60,
+        "defense": 60,
+        "specAttack": 40,
+        "specDefense": 20,
+        "speed": 20
+      },
+      "level": 260,
+      "weakness": [],
+      "types": "Water,Psychic",
+      "thumb_url": "thumbs/079.png",
+      "image_url": "images/079.png"
+    },
+    {
+      "name": "Doduo",
+      "number": 84,
+      "stats": {
+        "hp": 20,
+        "attack": 80,
+        "defense": 40,
+        "specAttack": 20,
+        "specDefense": 20,
+        "speed": 60
+      },
+      "level": 240,
+      "weakness": [],
+      "types": "Normal,Flying",
+      "thumb_url": "thumbs/084.png",
+      "image_url": "images/084.png"
+    }
+  ],
+  [
+    {
+      "name": "Charmeleon",
+      "number": 5,
+      "stats": {
+        "hp": 40,
+        "attack": 60,
+        "defense": 40,
+        "specAttack": 80,
+        "specDefense": 40,
+        "speed": 80
+      },
+      "level": 340,
+      "weakness": [],
+      "types": "Fire",
+      "thumb_url": "thumbs/005.png",
+      "image_url": "images/005.png"
+    },
+    {
+      "name": "Wartortle",
+      "number": 8,
+      "stats": {
+        "hp": 40,
+        "attack": 60,
+        "defense": 60,
+        "specAttack": 60,
+        "specDefense": 60,
+        "speed": 60
+      },
+      "level": 340,
+      "weakness": [],
+      "types": "Water",
+      "thumb_url": "thumbs/008.png",
+      "image_url": "images/008.png"
+    },
+    {
+      "name": "Butterfree",
+      "number": 12,
+      "stats": {
+        "hp": 40,
+        "attack": 40,
+        "defense": 40,
+        "specAttack": 80,
+        "specDefense": 60,
+        "speed": 60
+      },
+      "level": 320,
+      "weakness": [],
+      "types": "Bug,Flying",
+      "thumb_url": "thumbs/012.png",
+      "image_url": "images/012.png"
+    },
+    {
+      "name": "Beedrill",
+      "number": 15,
+      "stats": {
+        "hp": 40,
+        "attack": 60,
+        "defense": 40,
+        "specAttack": 40,
+        "specDefense": 60,
+        "speed": 60
+      },
+      "level": 300,
+      "weakness": [],
+      "types": "Bug,Poison",
+      "thumb_url": "thumbs/015.png",
+      "image_url": "images/015.png"
+    },
+    {
+      "name": "Pidgeotto",
+      "number": 17,
+      "stats": {
+        "hp": 40,
+        "attack": 60,
+        "defense": 40,
+        "specAttack": 40,
+        "specDefense": 40,
+        "speed": 60
+      },
+      "level": 280,
+      "weakness": [],
+      "types": "Normal,Flying",
+      "thumb_url": "thumbs/017.png",
+      "image_url": "images/017.png"
+    },
+    {
+      "name": "Raticate",
+      "number": 20,
+      "stats": {
+        "hp": 40,
+        "attack": 60,
+        "defense": 40,
+        "specAttack": 40,
+        "specDefense": 60,
+        "speed": 80
+      },
+      "level": 320,
+      "weakness": [],
+      "types": "Normal",
+      "thumb_url": "thumbs/020.png",
+      "image_url": "images/020.png"
+    },
+    {
+      "name": "Nidorina",
+      "number": 30,
+      "stats": {
+        "hp": 60,
+        "attack": 60,
+        "defense": 60,
+        "specAttack": 40,
+        "specDefense": 40,
+        "speed": 60
+      },
+      "level": 320,
+      "weakness": [],
+      "types": "Poison",
+      "thumb_url": "thumbs/030.png",
+      "image_url": "images/030.png"
+    },
+    {
+      "name": "Nidorino",
+      "number": 33,
+      "stats": {
+        "hp": 40,
+        "attack": 60,
+        "defense": 40,
+        "specAttack": 40,
+        "specDefense": 40,
+        "speed": 60
+      },
+      "level": 280,
+      "weakness": [],
+      "types": "Poison",
+      "thumb_url": "thumbs/033.png",
+      "image_url": "images/033.png"
+    },
+    {
+      "name": "Clefairy",
+      "number": 35,
+      "stats": {
+        "hp": 60,
+        "attack": 40,
+        "defense": 40,
+        "specAttack": 60,
+        "specDefense": 40,
+        "speed": 40
+      },
+      "level": 280,
+      "weakness": [],
+      "types": "Normal",
+      "thumb_url": "thumbs/035.png",
+      "image_url": "images/035.png"
+    },
+    {
+      "name": "Wigglytuff",
+      "number": 40,
+      "stats": {
+        "hp": 100,
+        "attack": 60,
+        "defense": 40,
+        "specAttack": 60,
+        "specDefense": 40,
+        "speed": 40
+      },
+      "level": 340,
+      "weakness": [],
+      "types": "Normal",
+      "thumb_url": "thumbs/040.png",
+      "image_url": "images/040.png"
+    },
+    {
+      "name": "Gloom",
+      "number": 44,
+      "stats": {
+        "hp": 40,
+        "attack": 60,
+        "defense": 60,
+        "specAttack": 80,
+        "specDefense": 60,
+        "speed": 40
+      },
+      "level": 340,
+      "weakness": [],
+      "types": "Grass,Poison",
+      "thumb_url": "thumbs/044.png",
+      "image_url": "images/044.png"
+    },
+    {
+      "name": "Parasect",
+      "number": 47,
+      "stats": {
+        "hp": 40,
+        "attack": 80,
+        "defense": 60,
+        "specAttack": 60,
+        "specDefense": 60,
+        "speed": 20
+      },
+      "level": 320,
+      "weakness": [],
+      "types": "Bug,Grass",
+      "thumb_url": "thumbs/047.png",
+      "image_url": "images/047.png"
+    },
+    {
+      "name": "Dugtrio",
+      "number": 51,
+      "stats": {
+        "hp": 20,
+        "attack": 60,
+        "defense": 40,
+        "specAttack": 40,
+        "specDefense": 60,
+        "speed": 100
+      },
+      "level": 320,
+      "weakness": [],
+      "types": "Ground",
+      "thumb_url": "thumbs/051.png",
+      "image_url": "images/051.png"
+    },
+    {
+      "name": "Persian",
+      "number": 53,
+      "stats": {
+        "hp": 40,
+        "attack": 60,
+        "defense": 40,
+        "specAttack": 60,
+        "specDefense": 40,
+        "speed": 100
+      },
+      "level": 340,
+      "weakness": [],
+      "types": "Normal",
+      "thumb_url": "thumbs/053.png",
+      "image_url": "images/053.png"
+    },
+    {
+      "name": "Psyduck",
+      "number": 54,
+      "stats": {
+        "hp": 40,
+        "attack": 40,
+        "defense": 40,
+        "specAttack": 60,
+        "specDefense": 40,
+        "speed": 60
+      },
+      "level": 280,
+      "weakness": [],
+      "types": "Water",
+      "thumb_url": "thumbs/054.png",
+      "image_url": "images/054.png"
+    },
+    {
+      "name": "Growlithe",
+      "number": 58,
+      "stats": {
+        "hp": 40,
+        "attack": 60,
+        "defense": 40,
+        "specAttack": 60,
+        "specDefense": 40,
+        "speed": 60
+      },
+      "level": 300,
+      "weakness": [],
+      "types": "Fire",
+      "thumb_url": "thumbs/058.png",
+      "image_url": "images/058.png"
+    },
+    {
+      "name": "Poliwhirl",
+      "number": 61,
+      "stats": {
+        "hp": 40,
+        "attack": 60,
+        "defense": 60,
+        "specAttack": 40,
+        "specDefense": 40,
+        "speed": 80
+      },
+      "level": 320,
+      "weakness": [],
+      "types": "Water",
+      "thumb_url": "thumbs/061.png",
+      "image_url": "images/061.png"
+    },
+    {
+      "name": "Abra",
+      "number": 63,
+      "stats": {
+        "hp": 20,
+        "attack": 20,
+        "defense": 20,
+        "specAttack": 100,
+        "specDefense": 40,
+        "speed": 80
+      },
+      "level": 280,
+      "weakness": [],
+      "types": "Psychic",
+      "thumb_url": "thumbs/063.png",
+      "image_url": "images/063.png"
+    },
+    {
+      "name": "Kadabra",
+      "number": 64,
+      "stats": {
+        "hp": 20,
+        "attack": 40,
+        "defense": 20,
+        "specAttack": 100,
+        "specDefense": 60,
+        "speed": 100
+      },
+      "level": 340,
+      "weakness": [],
+      "types": "Psychic",
+      "thumb_url": "thumbs/064.png",
+      "image_url": "images/064.png"
+    },
+    {
+      "name": "Machoke",
+      "number": 67,
+      "stats": {
+        "hp": 60,
+        "attack": 80,
+        "defense": 60,
+        "specAttack": 40,
+        "specDefense": 40,
+        "speed": 40
+      },
+      "level": 320,
+      "weakness": [],
+      "types": "Fighting",
+      "thumb_url": "thumbs/067.png",
+      "image_url": "images/067.png"
+    },
+    {
+      "name": "Weepinbell",
+      "number": 70,
+      "stats": {
+        "hp": 40,
+        "attack": 80,
+        "defense": 40,
+        "specAttack": 80,
+        "specDefense": 40,
+        "speed": 60
+      },
+      "level": 340,
+      "weakness": [],
+      "types": "Grass,Poison",
+      "thumb_url": "thumbs/070.png",
+      "image_url": "images/070.png"
+    },
+    {
+      "name": "Tentacool",
+      "number": 72,
+      "stats": {
+        "hp": 20,
+        "attack": 40,
+        "defense": 40,
+        "specAttack": 40,
+        "specDefense": 80,
+        "speed": 60
+      },
+      "level": 280,
+      "weakness": [],
+      "types": "Water,Poison",
+      "thumb_url": "thumbs/072.png",
+      "image_url": "images/072.png"
+    },
+    {
+      "name": "Graveler",
+      "number": 75,
+      "stats": {
+        "hp": 40,
+        "attack": 80,
+        "defense": 100,
+        "specAttack": 40,
+        "specDefense": 40,
+        "speed": 40
+      },
+      "level": 340,
+      "weakness": [],
+      "types": "Rock,Ground",
+      "thumb_url": "thumbs/075.png",
+      "image_url": "images/075.png"
+    },
+    {
+      "name": "Ponyta",
+      "number": 77,
+      "stats": {
+        "hp": 40,
+        "attack": 80,
+        "defense": 40,
+        "specAttack": 60,
+        "specDefense": 40,
+        "speed": 80
+      },
+      "level": 340,
+      "weakness": [],
+      "types": "Fire",
+      "thumb_url": "thumbs/077.png",
+      "image_url": "images/077.png"
+    },
+    {
+      "name": "Magnemite",
+      "number": 81,
+      "stats": {
+        "hp": 20,
+        "attack": 40,
+        "defense": 60,
+        "specAttack": 80,
+        "specDefense": 40,
+        "speed": 40
+      },
+      "level": 280,
+      "weakness": [],
+      "types": "Electric,Steel",
+      "thumb_url": "thumbs/081.png",
+      "image_url": "images/081.png"
+    },
+    {
+      "name": "Farfetch'd",
+      "number": 83,
+      "stats": {
+        "hp": 40,
+        "attack": 60,
+        "defense": 40,
+        "specAttack": 40,
+        "specDefense": 40,
+        "speed": 60
+      },
+      "level": 280,
+      "weakness": [],
+      "types": "Normal,Flying",
+      "thumb_url": "thumbs/083.png",
+      "image_url": "images/083.png"
+    },
+    {
+      "name": "Haunter",
+      "number": 93,
+      "stats": {
+        "hp": 40,
+        "attack": 40,
+        "defense": 40,
+        "specAttack": 100,
+        "specDefense": 40,
+        "speed": 80
+      },
+      "level": 340,
+      "weakness": [],
+      "types": "Ghost,Poison",
+      "thumb_url": "thumbs/093.png",
+      "image_url": "images/093.png"
+    },
+    {
+      "name": "Onix",
+      "number": 95,
+      "stats": {
+        "hp": 20,
+        "attack": 40,
+        "defense": 120,
+        "specAttack": 20,
+        "specDefense": 40,
+        "speed": 60
+      },
+      "level": 300,
+      "weakness": [],
+      "types": "Rock,Ground",
+      "thumb_url": "thumbs/095.png",
+      "image_url": "images/095.png"
+    },
+    {
+      "name": "Drowzee",
+      "number": 96,
+      "stats": {
+        "hp": 40,
+        "attack": 40,
+        "defense": 40,
+        "specAttack": 40,
+        "specDefense": 80,
+        "speed": 40
+      },
+      "level": 280,
+      "weakness": [],
+      "types": "Psychic",
+      "thumb_url": "thumbs/096.png",
+      "image_url": "images/096.png"
+    },
+    {
+      "name": "Exeggcute",
+      "number": 102,
+      "stats": {
+        "hp": 40,
+        "attack": 40,
+        "defense": 60,
+        "specAttack": 60,
+        "specDefense": 40,
+        "speed": 40
+      },
+      "level": 280,
+      "weakness": [],
+      "types": "Grass,Psychic",
+      "thumb_url": "thumbs/102.png",
+      "image_url": "images/102.png"
+    }
+  ],
+  [
+    {
+      "name": "Ivysaur",
+      "number": 2,
+      "stats": {
+        "hp": 40,
+        "attack": 60,
+        "defense": 60,
+        "specAttack": 80,
+        "specDefense": 60,
+        "speed": 60
+      },
+      "level": 360,
+      "weakness": [],
+      "types": "Grass,Poison",
+      "thumb_url": "thumbs/002.png",
+      "image_url": "images/002.png"
+    },
+    {
+      "name": "Venusaur",
+      "number": 3,
+      "stats": {
+        "hp": 60,
+        "attack": 60,
+        "defense": 60,
+        "specAttack": 80,
+        "specDefense": 80,
+        "speed": 80
+      },
+      "level": 420,
+      "weakness": [],
+      "types": "Grass,Poison",
+      "thumb_url": "thumbs/003.png",
+      "image_url": "images/003.png"
+    },
+    {
+      "name": "Charizard",
+      "number": 6,
+      "stats": {
+        "hp": 60,
+        "attack": 80,
+        "defense": 60,
+        "specAttack": 100,
+        "specDefense": 60,
+        "speed": 80
+      },
+      "level": 440,
+      "weakness": [],
+      "types": "Fire,Flying",
+      "thumb_url": "thumbs/006.png",
+      "image_url": "images/006.png"
+    },
+    {
+      "name": "Blastoise",
+      "number": 9,
+      "stats": {
+        "hp": 60,
+        "attack": 80,
+        "defense": 80,
+        "specAttack": 80,
+        "specDefense": 80,
+        "speed": 60
+      },
+      "level": 440,
+      "weakness": [],
+      "types": "Water",
+      "thumb_url": "thumbs/009.png",
+      "image_url": "images/009.png"
+    },
+    {
+      "name": "Pidgeot",
+      "number": 18,
+      "stats": {
+        "hp": 60,
+        "attack": 60,
+        "defense": 60,
+        "specAttack": 60,
+        "specDefense": 60,
+        "speed": 80
+      },
+      "level": 380,
+      "weakness": [],
+      "types": "Normal,Flying",
+      "thumb_url": "thumbs/018.png",
+      "image_url": "images/018.png"
+    },
+    {
+      "name": "Fearow",
+      "number": 22,
+      "stats": {
+        "hp": 40,
+        "attack": 80,
+        "defense": 60,
+        "specAttack": 60,
+        "specDefense": 40,
+        "speed": 80
+      },
+      "level": 360,
+      "weakness": [],
+      "types": "Normal,Flying",
+      "thumb_url": "thumbs/022.png",
+      "image_url": "images/022.png"
+    },
+    {
+      "name": "Arbok",
+      "number": 24,
+      "stats": {
+        "hp": 40,
+        "attack": 80,
+        "defense": 60,
+        "specAttack": 60,
+        "specDefense": 60,
+        "speed": 80
+      },
+      "level": 380,
+      "weakness": [],
+      "types": "Poison",
+      "thumb_url": "thumbs/024.png",
+      "image_url": "images/024.png"
+    },
+    {
+      "name": "Raichu",
+      "number": 26,
+      "stats": {
+        "hp": 40,
+        "attack": 80,
+        "defense": 40,
+        "specAttack": 80,
+        "specDefense": 60,
+        "speed": 80
+      },
+      "level": 380,
+      "weakness": [],
+      "types": "Electric",
+      "thumb_url": "thumbs/026.png",
+      "image_url": "images/026.png"
+    },
+    {
+      "name": "Sandslash",
+      "number": 28,
+      "stats": {
+        "hp": 60,
+        "attack": 80,
+        "defense": 80,
+        "specAttack": 40,
+        "specDefense": 40,
+        "speed": 60
+      },
+      "level": 360,
+      "weakness": [],
+      "types": "Ground",
+      "thumb_url": "thumbs/028.png",
+      "image_url": "images/028.png"
+    },
+    {
+      "name": "Nidoqueen",
+      "number": 31,
+      "stats": {
+        "hp": 60,
+        "attack": 60,
+        "defense": 60,
+        "specAttack": 60,
+        "specDefense": 60,
+        "speed": 60
+      },
+      "level": 360,
+      "weakness": [],
+      "types": "Poison,Ground",
+      "thumb_url": "thumbs/031.png",
+      "image_url": "images/031.png"
+    },
+    {
+      "name": "Nidoking",
+      "number": 34,
+      "stats": {
+        "hp": 60,
+        "attack": 80,
+        "defense": 60,
+        "specAttack": 80,
+        "specDefense": 60,
+        "speed": 80
+      },
+      "level": 420,
+      "weakness": [],
+      "types": "Poison,Ground",
+      "thumb_url": "thumbs/034.png",
+      "image_url": "images/034.png"
+    },
+    {
+      "name": "Clefable",
+      "number": 36,
+      "stats": {
+        "hp": 80,
+        "attack": 60,
+        "defense": 60,
+        "specAttack": 80,
+        "specDefense": 80,
+        "speed": 60
+      },
+      "level": 420,
+      "weakness": [],
+      "types": "Normal",
+      "thumb_url": "thumbs/036.png",
+      "image_url": "images/036.png"
+    },
+    {
+      "name": "Ninetales",
+      "number": 38,
+      "stats": {
+        "hp": 60,
+        "attack": 60,
+        "defense": 60,
+        "specAttack": 80,
+        "specDefense": 80,
+        "speed": 80
+      },
+      "level": 420,
+      "weakness": [],
+      "types": "Fire",
+      "thumb_url": "thumbs/038.png",
+      "image_url": "images/038.png"
+    },
+    {
+      "name": "Golbat",
+      "number": 42,
+      "stats": {
+        "hp": 60,
+        "attack": 60,
+        "defense": 60,
+        "specAttack": 60,
+        "specDefense": 60,
+        "speed": 80
+      },
+      "level": 380,
+      "weakness": [],
+      "types": "Poison,Flying",
+      "thumb_url": "thumbs/042.png",
+      "image_url": "images/042.png"
+    },
+    {
+      "name": "Vileplume",
+      "number": 45,
+      "stats": {
+        "hp": 60,
+        "attack": 60,
+        "defense": 60,
+        "specAttack": 80,
+        "specDefense": 80,
+        "speed": 40
+      },
+      "level": 380,
+      "weakness": [],
+      "types": "Grass,Poison",
+      "thumb_url": "thumbs/045.png",
+      "image_url": "images/045.png"
+    },
+    {
+      "name": "Venomoth",
+      "number": 49,
+      "stats": {
+        "hp": 60,
+        "attack": 60,
+        "defense": 40,
+        "specAttack": 80,
+        "specDefense": 60,
+        "speed": 80
+      },
+      "level": 380,
+      "weakness": [],
+      "types": "Bug,Poison",
+      "thumb_url": "thumbs/049.png",
+      "image_url": "images/049.png"
+    },
+    {
+      "name": "Golduck",
+      "number": 55,
+      "stats": {
+        "hp": 60,
+        "attack": 60,
+        "defense": 60,
+        "specAttack": 80,
+        "specDefense": 60,
+        "speed": 80
+      },
+      "level": 400,
+      "weakness": [],
+      "types": "Water",
+      "thumb_url": "thumbs/055.png",
+      "image_url": "images/055.png"
+    },
+    {
+      "name": "Primeape",
+      "number": 57,
+      "stats": {
+        "hp": 40,
+        "attack": 80,
+        "defense": 40,
+        "specAttack": 60,
+        "specDefense": 60,
+        "speed": 80
+      },
+      "level": 360,
+      "weakness": [],
+      "types": "Fighting",
+      "thumb_url": "thumbs/057.png",
+      "image_url": "images/057.png"
+    },
+    {
+      "name": "Arcanine",
+      "number": 59,
+      "stats": {
+        "hp": 60,
+        "attack": 100,
+        "defense": 60,
+        "specAttack": 80,
+        "specDefense": 60,
+        "speed": 80
+      },
+      "level": 440,
+      "weakness": [],
+      "types": "Fire",
+      "thumb_url": "thumbs/059.png",
+      "image_url": "images/059.png"
+    },
+    {
+      "name": "Poliwrath",
+      "number": 62,
+      "stats": {
+        "hp": 60,
+        "attack": 80,
+        "defense": 80,
+        "specAttack": 60,
+        "specDefense": 80,
+        "speed": 60
+      },
+      "level": 420,
+      "weakness": [],
+      "types": "Water,Fighting",
+      "thumb_url": "thumbs/062.png",
+      "image_url": "images/062.png"
+    },
+    {
+      "name": "Alakazam",
+      "number": 65,
+      "stats": {
+        "hp": 40,
+        "attack": 40,
+        "defense": 40,
+        "specAttack": 120,
+        "specDefense": 60,
+        "speed": 100
+      },
+      "level": 400,
+      "weakness": [],
+      "types": "Psychic",
+      "thumb_url": "thumbs/065.png",
+      "image_url": "images/065.png"
+    },
+    {
+      "name": "Machamp",
+      "number": 68,
+      "stats": {
+        "hp": 60,
+        "attack": 100,
+        "defense": 60,
+        "specAttack": 60,
+        "specDefense": 60,
+        "speed": 60
+      },
+      "level": 400,
+      "weakness": [],
+      "types": "Fighting",
+      "thumb_url": "thumbs/068.png",
+      "image_url": "images/068.png"
+    },
+    {
+      "name": "Victreebel",
+      "number": 71,
+      "stats": {
+        "hp": 60,
+        "attack": 80,
+        "defense": 60,
+        "specAttack": 80,
+        "specDefense": 40,
+        "speed": 60
+      },
+      "level": 380,
+      "weakness": [],
+      "types": "Grass,Poison",
+      "thumb_url": "thumbs/071.png",
+      "image_url": "images/071.png"
+    },
+    {
+      "name": "Tentacruel",
+      "number": 73,
+      "stats": {
+        "hp": 60,
+        "attack": 60,
+        "defense": 60,
+        "specAttack": 80,
+        "specDefense": 100,
+        "speed": 80
+      },
+      "level": 440,
+      "weakness": [],
+      "types": "Water,Poison",
+      "thumb_url": "thumbs/073.png",
+      "image_url": "images/073.png"
+    },
+    {
+      "name": "Golem",
+      "number": 76,
+      "stats": {
+        "hp": 60,
+        "attack": 100,
+        "defense": 100,
+        "specAttack": 40,
+        "specDefense": 40,
+        "speed": 40
+      },
+      "level": 380,
+      "weakness": [],
+      "types": "Rock,Ground",
+      "thumb_url": "thumbs/076.png",
+      "image_url": "images/076.png"
+    },
+    {
+      "name": "Rapidash",
+      "number": 78,
+      "stats": {
+        "hp": 40,
+        "attack": 80,
+        "defense": 60,
+        "specAttack": 80,
+        "specDefense": 60,
+        "speed": 100
+      },
+      "level": 420,
+      "weakness": [],
+      "types": "Fire",
+      "thumb_url": "thumbs/078.png",
+      "image_url": "images/078.png"
+    },
+    {
+      "name": "Slowbro",
+      "number": 80,
+      "stats": {
+        "hp": 80,
+        "attack": 60,
+        "defense": 80,
+        "specAttack": 80,
+        "specDefense": 60,
+        "speed": 20
+      },
+      "level": 380,
+      "weakness": [],
+      "types": "Water,Psychic",
+      "thumb_url": "thumbs/080.png",
+      "image_url": "images/080.png"
+    },
+    {
+      "name": "Magneton",
+      "number": 82,
+      "stats": {
+        "hp": 40,
+        "attack": 60,
+        "defense": 80,
+        "specAttack": 100,
+        "specDefense": 60,
+        "speed": 60
+      },
+      "level": 400,
+      "weakness": [],
+      "types": "Electric,Steel",
+      "thumb_url": "thumbs/082.png",
+      "image_url": "images/082.png"
+    },
+    {
+      "name": "Dodrio",
+      "number": 85,
+      "stats": {
+        "hp": 40,
+        "attack": 100,
+        "defense": 60,
+        "specAttack": 60,
+        "specDefense": 40,
+        "speed": 80
+      },
+      "level": 380,
+      "weakness": [],
+      "types": "Normal,Flying",
+      "thumb_url": "thumbs/085.png",
+      "image_url": "images/085.png"
+    },
+    {
+      "name": "Dewgong",
+      "number": 87,
+      "stats": {
+        "hp": 60,
+        "attack": 60,
+        "defense": 60,
+        "specAttack": 60,
+        "specDefense": 80,
+        "speed": 60
+      },
+      "level": 380,
+      "weakness": [],
+      "types": "Water,Ice",
+      "thumb_url": "thumbs/087.png",
+      "image_url": "images/087.png"
+    }
+  ],
+  [
+    {
+      "name": "Gyarados",
+      "number": 130,
+      "stats": {
+        "hp": 80,
+        "attack": 100,
+        "defense": 60,
+        "specAttack": 60,
+        "specDefense": 80,
+        "speed": 80
+      },
+      "level": 460,
+      "weakness": [],
+      "types": "Water,Flying",
+      "thumb_url": "thumbs/130.png",
+      "image_url": "images/130.png"
+    },
+    {
+      "name": "Lapras",
+      "number": 131,
+      "stats": {
+        "hp": 100,
+        "attack": 80,
+        "defense": 60,
+        "specAttack": 80,
+        "specDefense": 80,
+        "speed": 60
+      },
+      "level": 460,
+      "weakness": [],
+      "types": "Water,Ice",
+      "thumb_url": "thumbs/131.png",
+      "image_url": "images/131.png"
+    },
+    {
+      "name": "Articuno",
+      "number": 144,
+      "stats": {
+        "hp": 60,
+        "attack": 80,
+        "defense": 80,
+        "specAttack": 80,
+        "specDefense": 100,
+        "speed": 80
+      },
+      "level": 480,
+      "weakness": [],
+      "types": "Ice,Flying",
+      "thumb_url": "thumbs/144.png",
+      "image_url": "images/144.png"
+    },
+    {
+      "name": "Zapdos",
+      "number": 145,
+      "stats": {
+        "hp": 60,
+        "attack": 80,
+        "defense": 60,
+        "specAttack": 100,
+        "specDefense": 80,
+        "speed": 80
+      },
+      "level": 460,
+      "weakness": [],
+      "types": "Electric,Flying",
+      "thumb_url": "thumbs/145.png",
+      "image_url": "images/145.png"
+    },
+    {
+      "name": "Moltres",
+      "number": 146,
+      "stats": {
+        "hp": 60,
+        "attack": 80,
+        "defense": 80,
+        "specAttack": 100,
+        "specDefense": 60,
+        "speed": 80
+      },
+      "level": 460,
+      "weakness": [],
+      "types": "Fire,Flying",
+      "thumb_url": "thumbs/146.png",
+      "image_url": "images/146.png"
+    },
+    {
+      "name": "Dragonite",
+      "number": 149,
+      "stats": {
+        "hp": 60,
+        "attack": 120,
+        "defense": 80,
+        "specAttack": 80,
+        "specDefense": 80,
+        "speed": 80
+      },
+      "level": 500,
+      "weakness": [],
+      "types": "Dragon,Flying",
+      "thumb_url": "thumbs/149.png",
+      "image_url": "images/149.png"
+    },
+    {
+      "name": "Mew",
+      "number": 151,
+      "stats": {
+        "hp": 80,
+        "attack": 80,
+        "defense": 80,
+        "specAttack": 80,
+        "specDefense": 80,
+        "speed": 80
+      },
+      "level": 480,
+      "weakness": [],
+      "types": "Psychic",
+      "thumb_url": "thumbs/151.png",
+      "image_url": "images/151.png"
+    },
+    {
+      "name": "Kingdra",
+      "number": 230,
+      "stats": {
+        "hp": 60,
+        "attack": 80,
+        "defense": 80,
+        "specAttack": 80,
+        "specDefense": 80,
+        "speed": 80
+      },
+      "level": 460,
+      "weakness": [],
+      "types": "Water,Dragon",
+      "thumb_url": "thumbs/230.png",
+      "image_url": "images/230.png"
+    },
+    {
+      "name": "Raikou",
+      "number": 243,
+      "stats": {
+        "hp": 60,
+        "attack": 80,
+        "defense": 60,
+        "specAttack": 100,
+        "specDefense": 80,
+        "speed": 100
+      },
+      "level": 480,
+      "weakness": [],
+      "types": "Electric",
+      "thumb_url": "thumbs/243.png",
+      "image_url": "images/243.png"
+    },
+    {
+      "name": "Entei",
+      "number": 244,
+      "stats": {
+        "hp": 80,
+        "attack": 100,
+        "defense": 60,
+        "specAttack": 80,
+        "specDefense": 60,
+        "speed": 80
+      },
+      "level": 460,
+      "weakness": [],
+      "types": "Fire",
+      "thumb_url": "thumbs/244.png",
+      "image_url": "images/244.png"
+    },
+    {
+      "name": "Suicune",
+      "number": 245,
+      "stats": {
+        "hp": 80,
+        "attack": 60,
+        "defense": 100,
+        "specAttack": 80,
+        "specDefense": 100,
+        "speed": 80
+      },
+      "level": 500,
+      "weakness": [],
+      "types": "Water",
+      "thumb_url": "thumbs/245.png",
+      "image_url": "images/245.png"
+    },
+    {
+      "name": "Tyranitar",
+      "number": 248,
+      "stats": {
+        "hp": 80,
+        "attack": 120,
+        "defense": 80,
+        "specAttack": 80,
+        "specDefense": 80,
+        "speed": 60
+      },
+      "level": 500,
+      "weakness": [],
+      "types": "Dark,Rock",
+      "thumb_url": "thumbs/248.png",
+      "image_url": "images/248.png"
+    },
+    {
+      "name": "Celebi",
+      "number": 251,
+      "stats": {
+        "hp": 80,
+        "attack": 80,
+        "defense": 80,
+        "specAttack": 80,
+        "specDefense": 80,
+        "speed": 80
+      },
+      "level": 480,
+      "weakness": [],
+      "types": "Grass,Psychic",
+      "thumb_url": "thumbs/251.png",
+      "image_url": "images/251.png"
+    },
+    {
+      "name": "Sceptile",
+      "number": 254,
+      "stats": {
+        "hp": 60,
+        "attack": 80,
+        "defense": 60,
+        "specAttack": 100,
+        "specDefense": 60,
+        "speed": 100
+      },
+      "level": 460,
+      "weakness": [],
+      "types": "Grass",
+      "thumb_url": "thumbs/254.png",
+      "image_url": "images/254.png"
+    },
+    {
+      "name": "Blaziken",
+      "number": 257,
+      "stats": {
+        "hp": 60,
+        "attack": 100,
+        "defense": 60,
+        "specAttack": 100,
+        "specDefense": 60,
+        "speed": 80
+      },
+      "level": 460,
+      "weakness": [],
+      "types": "Fire,Fighting",
+      "thumb_url": "thumbs/257.png",
+      "image_url": "images/257.png"
+    },
+    {
+      "name": "Swampert",
+      "number": 260,
+      "stats": {
+        "hp": 80,
+        "attack": 100,
+        "defense": 80,
+        "specAttack": 80,
+        "specDefense": 80,
+        "speed": 60
+      },
+      "level": 480,
+      "weakness": [],
+      "types": "Water,Ground",
+      "thumb_url": "thumbs/260.png",
+      "image_url": "images/260.png"
+    },
+    {
+      "name": "Gardevoir",
+      "number": 282,
+      "stats": {
+        "hp": 60,
+        "attack": 60,
+        "defense": 60,
+        "specAttack": 100,
+        "specDefense": 100,
+        "speed": 80
+      },
+      "level": 460,
+      "weakness": [],
+      "types": "Psychic",
+      "thumb_url": "thumbs/282.png",
+      "image_url": "images/282.png"
+    },
+    {
+      "name": "Slaking",
+      "number": 289,
+      "stats": {
+        "hp": 120,
+        "attack": 120,
+        "defense": 80,
+        "specAttack": 80,
+        "specDefense": 40,
+        "speed": 80
+      },
+      "level": 520,
+      "weakness": [],
+      "types": "Normal",
+      "thumb_url": "thumbs/289.png",
+      "image_url": "images/289.png"
+    },
+    {
+      "name": "Milotic",
+      "number": 350,
+      "stats": {
+        "hp": 80,
+        "attack": 60,
+        "defense": 60,
+        "specAttack": 80,
+        "specDefense": 100,
+        "speed": 80
+      },
+      "level": 460,
+      "weakness": [],
+      "types": "Water",
+      "thumb_url": "thumbs/350.png",
+      "image_url": "images/350.png"
+    },
+    {
+      "name": "Salamence",
+      "number": 373,
+      "stats": {
+        "hp": 80,
+        "attack": 120,
+        "defense": 60,
+        "specAttack": 100,
+        "specDefense": 60,
+        "speed": 80
+      },
+      "level": 500,
+      "weakness": [],
+      "types": "Dragon,Flying",
+      "thumb_url": "thumbs/373.png",
+      "image_url": "images/373.png"
+    },
+    {
+      "name": "Metagross",
+      "number": 376,
+      "stats": {
+        "hp": 60,
+        "attack": 120,
+        "defense": 100,
+        "specAttack": 80,
+        "specDefense": 80,
+        "speed": 60
+      },
+      "level": 500,
+      "weakness": [],
+      "types": "Steel,Psychic",
+      "thumb_url": "thumbs/376.png",
+      "image_url": "images/376.png"
+    },
+    {
+      "name": "Registeel",
+      "number": 379,
+      "stats": {
+        "hp": 60,
+        "attack": 60,
+        "defense": 120,
+        "specAttack": 60,
+        "specDefense": 120,
+        "speed": 40
+      },
+      "level": 460,
+      "weakness": [],
+      "types": "Steel",
+      "thumb_url": "thumbs/379.png",
+      "image_url": "images/379.png"
+    },
+    {
+      "name": "Latias",
+      "number": 380,
+      "stats": {
+        "hp": 60,
+        "attack": 60,
+        "defense": 80,
+        "specAttack": 100,
+        "specDefense": 100,
+        "speed": 100
+      },
+      "level": 500,
+      "weakness": [],
+      "types": "Dragon,Psychic",
+      "thumb_url": "thumbs/380.png",
+      "image_url": "images/380.png"
+    },
+    {
+      "name": "Latios",
+      "number": 381,
+      "stats": {
+        "hp": 60,
+        "attack": 80,
+        "defense": 60,
+        "specAttack": 120,
+        "specDefense": 80,
+        "speed": 100
+      },
+      "level": 500,
+      "weakness": [],
+      "types": "Dragon,Psychic",
+      "thumb_url": "thumbs/381.png",
+      "image_url": "images/381.png"
+    },
+    {
+      "name": "Groudon",
+      "number": 383,
+      "stats": {
+        "hp": 80,
+        "attack": 120,
+        "defense": 100,
+        "specAttack": 80,
+        "specDefense": 80,
+        "speed": 80
+      },
+      "level": 540,
+      "weakness": [],
+      "types": "Ground",
+      "thumb_url": "thumbs/383.png",
+      "image_url": "images/383.png"
+    },
+    {
+      "name": "Jirachi",
+      "number": 385,
+      "stats": {
+        "hp": 80,
+        "attack": 80,
+        "defense": 80,
+        "specAttack": 80,
+        "specDefense": 80,
+        "speed": 80
+      },
+      "level": 480,
+      "weakness": [],
+      "types": "Steel,Psychic",
+      "thumb_url": "thumbs/385.png",
+      "image_url": "images/385.png"
+    },
+    {
+      "name": "Deoxys",
+      "number": 386,
+      "stats": {
+        "hp": 40,
+        "attack": 120,
+        "defense": 40,
+        "specAttack": 120,
+        "specDefense": 40,
+        "speed": 120
+      },
+      "level": 480,
+      "weakness": [],
+      "types": "Psychic",
+      "thumb_url": "thumbs/386.png",
+      "image_url": "images/386.png"
+    },
+    {
+      "name": "Infernape",
+      "number": 392,
+      "stats": {
+        "hp": 60,
+        "attack": 80,
+        "defense": 60,
+        "specAttack": 100,
+        "specDefense": 60,
+        "speed": 100
+      },
+      "level": 460,
+      "weakness": [],
+      "types": "Fire,Fighting",
+      "thumb_url": "thumbs/392.png",
+      "image_url": "images/392.png"
+    },
+    {
+      "name": "Garchomp",
+      "number": 445,
+      "stats": {
+        "hp": 80,
+        "attack": 100,
+        "defense": 80,
+        "specAttack": 80,
+        "specDefense": 60,
+        "speed": 80
+      },
+      "level": 480,
+      "weakness": [],
+      "types": "Dragon,Ground",
+      "thumb_url": "thumbs/445.png",
+      "image_url": "images/445.png"
+    },
+    {
+      "name": "Lucario",
+      "number": 448,
+      "stats": {
+        "hp": 60,
+        "attack": 100,
+        "defense": 60,
+        "specAttack": 100,
+        "specDefense": 60,
+        "speed": 80
+      },
+      "level": 460,
+      "weakness": [],
+      "types": "Fighting,Steel",
+      "thumb_url": "thumbs/448.png",
+      "image_url": "images/448.png"
+    }
+  ],
+  [
+    {
+      "name": "Mewtwo",
+      "number": 150,
+      "stats": {
+        "hp": 80,
+        "attack": 100,
+        "defense": 80,
+        "specAttack": 120,
+        "specDefense": 80,
+        "speed": 120
+      },
+      "level": 580,
+      "weakness": [],
+      "types": "Psychic",
+      "thumb_url": "thumbs/150.png",
+      "image_url": "images/150.png"
+    },
+    {
+      "name": "Lugia",
+      "number": 249,
+      "stats": {
+        "hp": 80,
+        "attack": 80,
+        "defense": 100,
+        "specAttack": 80,
+        "specDefense": 120,
+        "speed": 100
+      },
+      "level": 560,
+      "weakness": [],
+      "types": "Psychic,Flying",
+      "thumb_url": "thumbs/249.png",
+      "image_url": "images/249.png"
+    },
+    {
+      "name": "Ho-Oh",
+      "number": 250,
+      "stats": {
+        "hp": 80,
+        "attack": 100,
+        "defense": 80,
+        "specAttack": 100,
+        "specDefense": 120,
+        "speed": 80
+      },
+      "level": 560,
+      "weakness": [],
+      "types": "Fire,Flying",
+      "thumb_url": "thumbs/250.png",
+      "image_url": "images/250.png"
+    },
+    {
+      "name": "Kyogre",
+      "number": 382,
+      "stats": {
+        "hp": 80,
+        "attack": 80,
+        "defense": 80,
+        "specAttack": 120,
+        "specDefense": 120,
+        "speed": 80
+      },
+      "level": 560,
+      "weakness": [],
+      "types": "Water",
+      "thumb_url": "thumbs/382.png",
+      "image_url": "images/382.png"
+    },
+    {
+      "name": "Rayquaza",
+      "number": 384,
+      "stats": {
+        "hp": 80,
+        "attack": 120,
+        "defense": 80,
+        "specAttack": 120,
+        "specDefense": 80,
+        "speed": 80
+      },
+      "level": 560,
+      "weakness": [],
+      "types": "Dragon,Flying",
+      "thumb_url": "thumbs/384.png",
+      "image_url": "images/384.png"
+    },
+    {
+      "name": "Dialga",
+      "number": 483,
+      "stats": {
+        "hp": 80,
+        "attack": 100,
+        "defense": 100,
+        "specAttack": 120,
+        "specDefense": 80,
+        "speed": 80
+      },
+      "level": 560,
+      "weakness": [],
+      "types": "Steel,Dragon",
+      "thumb_url": "thumbs/483.png",
+      "image_url": "images/483.png"
+    },
+    {
+      "name": "Giratina",
+      "number": 487,
+      "stats": {
+        "hp": 120,
+        "attack": 100,
+        "defense": 80,
+        "specAttack": 100,
+        "specDefense": 80,
+        "speed": 80
+      },
+      "level": 560,
+      "weakness": [],
+      "types": "Ghost,Dragon",
+      "thumb_url": "thumbs/487.png",
+      "image_url": "images/487.png"
+    },
+    {
+      "name": "Arceus",
+      "number": 493,
+      "stats": {
+        "hp": 100,
+        "attack": 100,
+        "defense": 100,
+        "specAttack": 100,
+        "specDefense": 100,
+        "speed": 100
+      },
+      "level": 600,
+      "weakness": [],
+      "types": "Normal",
+      "thumb_url": "thumbs/493.png",
+      "image_url": "images/493.png"
+    },
+    {
+      "name": "Reshiram",
+      "number": 643,
+      "stats": {
+        "hp": 80,
+        "attack": 100,
+        "defense": 80,
+        "specAttack": 120,
+        "specDefense": 100,
+        "speed": 80
+      },
+      "level": 560,
+      "weakness": [],
+      "types": "Dragon,Fire",
+      "thumb_url": "thumbs/643.png",
+      "image_url": "images/643.png"
+    },
+    {
+      "name": "Zekrom",
+      "number": 644,
+      "stats": {
+        "hp": 80,
+        "attack": 120,
+        "defense": 100,
+        "specAttack": 100,
+        "specDefense": 80,
+        "speed": 80
+      },
+      "level": 560,
+      "weakness": [],
+      "types": "Dragon,Electric",
+      "thumb_url": "thumbs/644.png",
+      "image_url": "images/644.png"
+    },
+    {
+      "name": "Kyurem",
+      "number": 646,
+      "stats": {
+        "hp": 100,
+        "attack": 100,
+        "defense": 80,
+        "specAttack": 120,
+        "specDefense": 80,
+        "speed": 80
+      },
+      "level": 560,
+      "weakness": [],
+      "types": "Dragon,Ice",
+      "thumb_url": "thumbs/646.png",
+      "image_url": "images/646.png"
+    }
+  ]
+]

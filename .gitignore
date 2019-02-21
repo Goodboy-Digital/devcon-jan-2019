@@ -1,0 +1,15 @@
+dist/assets
+node_modules
+.DS_Store
+.project
+.bulldog
+.git
+*.sublime-*.zip
+
+ressources\.json
+
+ressources\.png
+
+src/scripts/manifest-v2\.json
+
+src/scripts/manifest\.json

@@ -1,0 +1,80 @@
+{
+    "preset": "Default",
+    "remembered": {
+      "Default": {
+        "0": {
+          "warpSpeed": 53.852317766672414
+        },
+        "1": {
+          "color": 12055295,
+          "randomiseColor": false,
+          "stop": false,
+          "starWidth": 0.15
+        },
+        "2": {
+          "topGradientStandard": 5455354,
+          "topGradientWarp": 5467361,
+          "bottomGradientStandard": 1188439,
+          "bottomGradientWarp": 3823545,
+          "topSmokeStandard": 4790944,
+          "topSmokeWarp": 6397426,
+          "bottomSmokeStandard": 7884947,
+          "bottomSmokeWarp": 7634102,
+          "centerZoneStandard": 4659813,
+          "centerZoneWarp": 9201071
+        },
+        "3": {
+          "totCoins": 18.094089264173704,
+          "coinScale": 1.9173703256936068
+        },
+        "4": {
+          "standard": 0.9361978253244476,
+          "warp": 4.4482286916871265
+        },
+        "5": {
+          "x": 0.8418098912662224,
+          "y": 4.209049456331112,
+          "z": 1.1785338477727114
+        },
+        "6": {
+          "min": 7.835496317081725,
+          "max": 20
+        }
+      }
+    },
+    "closed": false,
+    "folders": {
+      "Warp": {
+        "preset": "Default",
+        "closed": false,
+        "folders": {
+          "BackgroundColors": {
+            "preset": "Default",
+            "closed": false,
+            "folders": {}
+          }
+        }
+      },
+      "Coin": {
+        "preset": "Default",
+        "closed": true,
+        "folders": {
+          "Movement Speed": {
+            "preset": "Default",
+            "closed": false,
+            "folders": {}
+          },
+          "Rotation Speed": {
+            "preset": "Default",
+            "closed": false,
+            "folders": {}
+          },
+          "Spawn Radius": {
+            "preset": "Default",
+            "closed": false,
+            "folders": {}
+          }
+        }
+      }
+    }
+  }
