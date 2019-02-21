@@ -5,6 +5,7 @@ import Camera from 'odie/components/view3d/Camera';
 import OrbitalCamera from 'odie/components/view3d/OrbitalCamera';
 import Light from 'odie/components/view3d/Light';
 import HexBase3d from '../board3d/HexBase3d';
+import OverlaySystem from 'odie/components/overlay/OverlaySystem';
 export default class GameScreen extends Screen {
     constructor(label) {
         super(label);
@@ -21,14 +22,16 @@ export default class GameScreen extends Screen {
         this.container2D = new PIXI.Container();
         this.container.addChild(this.container2D);
 
-        // this.camera = new Camera();
-        this.camera = new OrbitalCamera();
+        this.camera = new Camera();
+        // this.camera = new OrbitalCamera();
 
         this.game = new BasicGame({
             stage: this.container3D,
             camera: this.camera,
             renderer: window.renderer,
         });       
+
+        this.game.addSystem(OverlaySystem, { stage: this.container2D })
 
         this.ambient = new Light({
             color: 0xFFFFFF,
@@ -48,9 +51,9 @@ export default class GameScreen extends Screen {
         this.game.addChild(this.hex)
         this.hex.rotation.x = Math.PI / 2
 
-        this.sprite = PIXI.Sprite.from('assets/image/coin_texture.jpg')
-        this.container2D.addChild(this.sprite)
-        this.sprite.scale.set(0.2)
+        // this.sprite = PIXI.Sprite.from('assets/image/coin_texture.jpg')
+        // this.container2D.addChild(this.sprite)
+        // this.sprite.scale.set(0.2)
 
     }
   
@@ -58,7 +61,9 @@ export default class GameScreen extends Screen {
 
     }
     update(delta) {
-        this.game.update();
+        this.game.update(delta);
+        // this.hex.update(delta);
+
 
     this.cameraSin += 0.05
        this.hex.rotation.x = Math.PI / 2 + Math.sin(this.cameraSin) * 0.5;
