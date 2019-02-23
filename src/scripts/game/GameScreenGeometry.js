@@ -17,42 +17,26 @@ export default class GameScreen extends Screen {
         
         
         const sprite = PIXI.Sprite.from('assets/image/coin_texture.jpg');
-       // this.container.addChild(sprite);
-
-        const size = 2;
-        const sizeColor = 3;
-        const total = 100;
-
-        const positions = new Float32Array(total * size);
-        const colors = new Float32Array(total * sizeColor);
+        this.container.addChild(sprite);
         
-        for(let i=0; i < total; i++)
-        {
-            positions[i*2] = (Math.random() * 1000)
-            positions[i*2 + 1] = (Math.random() * 1000)
-
-            colors[i*4] = Math.random()
-            colors[i*4 +1] = Math.random()
-            colors[i*4 +2] = Math.random()
-        
-        }   
-
-       this.buffer = new PIXI.Buffer(positions);
-       // buffer.update();
         var geometry = new PIXI.Geometry()
-        .addAttribute('position', this.buffer)// x,y
-        .addAttribute('color', colors)// x,y
-       
-        
-        const timeUniforms = new PIXI.UniformGroup({
-            uTime:1,
-        }, true)
-
-        timeUniforms.update();
-
-
+        .addAttribute('position', [0, 0, //x, y
+                                   100, 0, //x, y
+                                   100, 100,
+                                   0, 100])// x,y
+        .addAttribute('color', [1, 0, 0, 1,
+                                0, 1, 0, 1,
+                                1, 0, 1, 1,
+                                1, 1, 1, 1])
+        .addAttribute('uvs', [0, 0,
+                              0, 1,
+                              1, 1,
+                              1, 0])
+        .addIndex([0, 1, 2, 0, 3, 2])
+            
+            
         const uniforms = {
-            group:timeUniforms,
+            uTime:1,
             uSampler:PIXI.Texture.from('assets/image/001.png'),
             uSampler2:PIXI.Texture.from('assets/image/displacement_map.png')
         };
@@ -60,45 +44,53 @@ export default class GameScreen extends Screen {
         var shader = PIXI.Shader.from(`
 
             attribute vec2 position;
-            attribute vec3 color;
-        
+            attribute vec4 color;
+            attribute vec2 uvs;
+
+            varying vec4 vColor;
+            varying vec2 vUvs;
+
             uniform mat3 projectionMatrix;
             uniform mat3 translationMatrix;
 
-            varying vec3 vColor;
-
             void main(void)
             {
-                vColor = color;
-
-                vec2 pos = position;
-
                 gl_Position = vec4((projectionMatrix * translationMatrix * vec3(position, 1.0)).xy, 0.0, 1.0);
-                
-
-                gl_PointSize = 10.;
+   
+                vColor = color;
+                vUvs = uvs;
             }
 
         `,
         `   
-        
+            
+            varying vec4 vColor;
+            varying vec2 vUvs;
+
             uniform float uTime;
             uniform sampler2D uSampler;
             uniform sampler2D uSampler2;
 
-            varying vec3 vColor;
-
             void main() {
 
+                vec2 modUvs = vUvs;
+
+                modUvs.x += sin((uTime+vUvs.y) * 2.) * 0.1;
                 
-                gl_FragColor = vec4(vColor, 1.) * 0.5;
+                vec4 first = texture2D(uSampler, modUvs);// * vColor;
+                vec4 second = texture2D(uSampler2, vUvs);// * vColor;
+
+                float mod = ((1.-second.r) * 1.);;
+                mod = clamp(mod, 0., 1.);
+
+                gl_FragColor = first * mod;
                 
             }
         `, uniforms);
 
         var state = new PIXI.State();
 
-        var mesh = new PIXI.Mesh(geometry, shader, state, PIXI.DRAW_MODES.POINTS);
+        var mesh = new PIXI.Mesh(geometry, shader, state);
             
         this.addChild(mesh);
 
@@ -152,35 +144,19 @@ export default class GameScreen extends Screen {
         // // this.sprite = PIXI.Sprite.from('assets/image/coin_texture.jpg')
         // // this.container2D.addChild(this.sprite)
         // // this.sprite.scale.set(0.2)
-        this.tick = 0;
+
     }
   
     show(delay) {
 
     }
     update(delta) {
-
-        const size = 2;
-        const total = 100000;
-
-        const positions = this.buffer.data;
-
-        this.tick += 1;
-
-        for(let i=0; i < total; i++)
-        {
-            positions[i*2] += Math.sin(this.tick * (i / total) );
-
-            positions[i*2 + 1] += Math.cos(this.tick * (i / total) );
-        }   
-
-        this.buffer.update();
     //     this.game.update(delta);
     //     // this.hex.update(delta);
-      //  this.mesh.x = 400
-    //    this.mesh.y = 400
+        this.mesh.x = 400
+        this.mesh.y = 400
   //  this.mesh.rotation += 0.01;
-  //  this.mesh.scale.set(5);
+    this.mesh.scale.set(5);
         this.mesh.shader.uniforms.uTime += 0.1;//.//Math.random();
     // this.cameraSin += 0.05
     //    this.hex.rotation.x = Math.PI / 2 + Math.sin(this.cameraSin) * 0.5;
